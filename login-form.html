@@ -1,10 +1,41 @@
 <template>
 
-  <input id="email" type="text">
-  <input id="password" type="password">
-  <button>Login</button>
+  <div class="login-container">
+    <div class="header">
+      <span>LOGIN TO YOUR ACCOUNT</span>
+    </div>
+    <div class="main">
+      <form>
+        <div class="input-container">
+          <div class="box">
+            <img src="assets/consultant-icon.svg" height="15" width="15">
+          </div>
+          <div class="input">
+            <input placeholder="Username or email" id="email" type="text">
+          </div>
+        </div>
 
-  <p id="loggedIn"></p>
+        <div class="input-container">
+          <div class="box">
+            <img src="assets/lock-icon.svg" height="15" width="15">
+          </div>
+          <div class="input">
+            <input placeholder="Password" id="password" type="password">
+          </div>
+        </div>
+
+        <div class="input-container">
+          <div class="button">
+            <!--<input value="LOGIN" id="submit" type="submit">-->
+            <div class="btn">
+              <span>LOGIN</span>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
   <link rel="stylesheet" href="login-form.css">
 </template>
 

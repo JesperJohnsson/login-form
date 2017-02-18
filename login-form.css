@@ -1,3 +1,82 @@
-p {
-    font-size: 200px;
+.login-container {
+  margin: 300px auto 0 auto;
+  width: 350px;
+  height: 250px;
+  border: 5px solid #555555;
+  background:white;
+}
+
+.header {
+  padding: 15px 20px;
+  color: white;
+  background: #F2672E;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.main {
+  width: 75%;
+  margin: 10px auto 0 auto;
+}
+
+.main .input-container {
+  padding: 15px 0px 0px 0px;
+  width: 100%;
+  clear: both;
+}
+
+.main .input-container .box {
+  width: 40px;
+  height: 40px;
+  background: #676056;
+  float: left;
+  text-align: center;
+}
+
+.main .input-container .box img{
+  margin-top: 12px;
+}
+
+.main .input-container .input {
+  width: calc(100% - 40px);
+  float: right;
+}
+
+.main .input-container .input input {
+  padding-left: 10px;
+  width: calc(100% - 12px);
+  height: 36px;
+  background: #F7F3EA;
+  border: 1px solid #F7F3EA;
+  color: #676056;
+}
+
+.main .input-container .input input::-webkit-input-placeholder {
+  color: #cccccc;
+}
+
+.main .input-container .input input:focus {
+  outline: none;
+}
+
+.main .input-container .button {
+  width: 100%;
+}
+
+.main .input-container .button .btn  {
+  padding: 12px 0px;
+  width: 100%;
+  background: #F2672E;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Roboto;
+  transition: background 0.5s;
+}
+
+.main .input-container .button .btn:hover  {
+  cursor: pointer;
+  background: #f25317;
 }
