@@ -1,7 +1,7 @@
 .login-container {
   margin: 300px auto 0 auto;
   width: 350px;
-  height: 250px;
+  height: 200px;
   border: 5px solid #555555;
   background:white;
 }
@@ -17,7 +17,7 @@
 
 .main {
   width: 75%;
-  margin: 10px auto 0 auto;
+  margin: 12px auto 0 auto;
 }
 
 .main .input-container {
